@@ -6,7 +6,7 @@
 
 
 
-2.在vim  .gitconfig
+2.在vim  ~/.gitconfig
 
 ```shell
 [user]
@@ -24,7 +24,7 @@ ssh-keygen -t rsa -C "676316526@qq.com"
 
 
 
-4. cd.ssh文件夹
+4. cd ~/.ssh文件夹
 
 ```shell
 公钥为id_rsa.pub

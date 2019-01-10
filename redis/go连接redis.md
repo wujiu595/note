@@ -49,7 +49,7 @@ func Scan(src [] interface {},dest ... interface {})([] interface {},error)
 Scan函数从src复制到dest指向的值。
 
 ```go
-var value int
+fangfavar value int
 var value string
 
 reply, err := redis.Values(c.Do("MGET", "key1", "key2"))
