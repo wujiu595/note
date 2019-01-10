@@ -135,6 +135,8 @@ ttl key
 
 ## 4. hash
 
+
+
 ### 4.1. 设置hash的值
 
 #### 4.1.1.设置单个键的值
@@ -174,7 +176,7 @@ hmget key field1 field2
 #### 4.2.3 获取所有属性的值
 
 ```shell
-kvals key
+hvals key
 ```
 
 #### 4.2.4 获取一个hash有多少个属性

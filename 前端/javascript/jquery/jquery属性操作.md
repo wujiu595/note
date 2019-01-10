@@ -24,6 +24,13 @@ var $src = $('#img1').prop('src');
 $('#img1').prop({src: "test.jpg", alt: "Test Image" });
 ```
 
+3、attr()获取自定义属性
+
+```javascript
+var $src = $('#img1').attr('goodsId');
+$('#img1').attr({src: "test.jpg", alt: "Test Image" });
+```
+
 3、text()取出html的文字内容
 
 ```javascript
