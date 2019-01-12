@@ -185,6 +185,14 @@ hvals key
 hlen key
 ```
 
+### 4.2.5 获取键值对
+
+```shell
+hgetall key
+```
+
+
+
 ### 4.3 删除
 
 #### 4.3.1 删除整个hash键及值

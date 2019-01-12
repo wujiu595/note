@@ -12,6 +12,7 @@ $('.myClass') // 选择class为myClass的元素
 $('li') //选择所有的li元素
 $('#ul1 li span') //选择id为为ul1元素下的所有li下的span元素
 $('input[name=first]') // 选择name属性等于first的input元素
+$(":checked")//选取每个被选取的元素
 ```
 
 **对选择集进行过滤**
@@ -27,13 +28,20 @@ $('div').eq(5); //选择第6个div元素
 ```javascript
 $('#box').prev(); //选择id是box的元素前面紧挨的同辈元素
 $('#box').prevAll(); //选择id是box的元素之前所有的同辈元素
+
 $('#box').next(); //选择id是box的元素后面紧挨的同辈元素
 $('#box').nextAll(); //选择id是box的元素后面所有的同辈元素
+
 $('#box').parent(); //选择id是box的元素的父元素
+$('#box').parents(".myClass"); //选择id是box的元素的长辈元素中的class等于myClass的元素
+
 $('#box').children(); //选择id是box的元素的所有子元素
+
 $('#box').siblings(); //选择id是box的元素的同级元素
 $('#box').find('.myClass'); //选择id是box的元素内的class等于myClass的元素
 ```
+
+
 
 **判断是否选择到了元素** 
 jquery有容错机制，即使没有找到元素，也不会出错，可以用length属性来判断是否找到了元素,length等于0，就是没选择到元素，length大于0，就是选择到了元素。

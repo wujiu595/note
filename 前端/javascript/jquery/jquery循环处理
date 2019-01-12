@@ -1,0 +1,16 @@
+# Jquery处理
+
+循环选取每一个元素
+
+```javascript
+.each(function(){
+
+})
+```
+
+判断选中的元素个数
+
+```javascript
+length
+```
+

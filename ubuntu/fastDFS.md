@@ -1,5 +1,13 @@
 # fastDFS
 
+```shell
+sudo  fdfs_trackerd  /etc/fdfs/tracker.conf
+sudo fdfs_storaged  /etc/fdfs/storage.conf
+sudo  /usr/local/nginx/sbin/nginx
+```
+
+
+
 服务端两个角色: 
 
 Tracker:管理集群，tracker 也可以实现集群。每个 tracker 节点地位平等。收集 Storage 集群的状态。 
@@ -122,7 +130,7 @@ sudo vim /etc/fdfs/client.conf
 修改：
 
 ```shell
-base_path=/home/itcast/fastdfs/tracke1. r
+base_path=/home/itcast/fastdfs/tracker
 tracker_server=自己ubuntu虚拟机的ip地址:22122
 ```
 
