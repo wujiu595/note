@@ -183,7 +183,7 @@ git branch -d `分支名` 新建分支
 ```shell
 git checkout master 选择分支
 
-git checkout -b newDev 选择分支
+git checkout -b newDev 选择并新建该分支
 ```
 
 

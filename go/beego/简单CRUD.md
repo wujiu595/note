@@ -1,4 +1,4 @@
-# orm增删该查 CRUD
+#  orm增删该查 CRUD
 
 orm简单的crud操作包括：insert、read、update、delete 4个方法，第一个参数都是操作的对象的指针，第二个参数是一个不定参数用来查询的匹配属性。当给对象的id赋值并进行操作是可以省略第二个参数。
 
