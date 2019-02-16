@@ -33,6 +33,14 @@ http://idea.lanyus.com/
 
 
 
+## 5 还原默认设置
+
+点击export setting 查看导出文件的路径
+
+删除该路径的文件
+
+
+
 
 
 
