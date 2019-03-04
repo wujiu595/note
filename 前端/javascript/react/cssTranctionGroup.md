@@ -8,8 +8,6 @@ npm install react-transition-group
 
 # cssTransiton
 
-
-
 ```html
 import { CSSTransition } from 'react-transition-group';
 
@@ -48,15 +46,11 @@ fade-enter, fade-enter-active, fade-enter-done, fade-exit, fade-exit-active,
 
 首次加载页面时
 
-
-
 ### 钩子函数
 
 ```js
 onEnter onEntering onEntered onExit onExiting onExited
 ```
-
-
 
 ## TranstionGroup
 

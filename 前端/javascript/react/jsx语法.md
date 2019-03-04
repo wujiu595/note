@@ -109,6 +109,16 @@ export default Test
 
 值得注意的是:循环后的内容必须有一个key的属性,并且不要使用变化的量,否则会影响程序的性能
 
+## dangerouslySetInnerHTML
+
+```html
+<div dangerouslySetInnerHTML={{__html:this.props.content}}>
+    
+</div>
+```
+
+
+
 ## jsx和html语法上的区别
 
 ### jsx 事件处理

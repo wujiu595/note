@@ -9,7 +9,7 @@ typora-copy-images-to: img
 
 ### 1.1．redis介绍
 
-redis是一种nosql(not only sql),不仅仅是sql关系型数据库
+redis是一种nosql(not only sql),不仅仅是sql关系型数据库,存储功能
 
 ### 1.2. redis 的数据类型
 

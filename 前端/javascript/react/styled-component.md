@@ -1,4 +1,4 @@
-# Styled-component
+#                                                                               Styled-component
 
 ### 安装
 
@@ -41,7 +41,7 @@ export const NavWrapper=styled.div`
 `;
 ```
 
-### 设置类的属性
+### 设置组件的属性
 
 ```js
 export const Input=styled.input.attrs({placeholder:"搜索"})`
