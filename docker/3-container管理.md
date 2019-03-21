@@ -49,7 +49,20 @@ typora-root-url: img
 ### 3.2.1 查看容器
 
 ```shell
- xxxxxxxxxx docker ps [OPTIONS]#options-a, --all             Show all containers (default shows just running#fieldCONTAINER ID        进程idIMAGE               镜像名COMMAND             使用什么命令创建的CREATED             创建时间STATUS              状态PORTS               运行的端口NAMES               容器名#exampledocker ps    查看运行中的容器docker ps -a 查看所有的容器包括未运行的
+docker ps [OPTIONS]
+#options
+-a Show all containers (default shows just running)
+#fieldCONTAINER 
+#ID        进程id
+#IMAGE     镜像名
+#COMMAND   使用什么命令创建的
+#CREATED   创建时间
+#STATUS    状态
+#PORTS     运行的端口
+#NAMES     容器名
+#example
+docker ps    查看运行中的容器
+docker ps -a 查看所有的容器包括未运行的
 ```
 
 ### 3.2.2 创建容器

@@ -10,8 +10,6 @@ func NewScanner(r io.Reader) *Scanner
 
 NewScanner创建并返回一个从r读取数据的Scanner，默认的分割函数是ScanLines。
 
-
-
 ### NewScanner成员方法
 
 #### func (*Scanner) Scan

@@ -104,7 +104,7 @@ Got permission denied while trying to connect to the Docker daemon socket at uni
 
 上图是报错文件的权限展示，可以看到其属主为root，权限为rw，可读可写；其属组为docker，权限为rw，可读可写。如果要当前用户可直接读取该文件，那么我们就为docker.sock 添加一个其他用户可读写权限 或者添加1个用户组就可以了
 
-### 1.5.3 方法：一劳永逸启docker的之后
+### 1.5.3 方法：一劳永逸
 
 ```shell
 #如果还没有 docker group 就添加一个：
